@@ -1,0 +1,226 @@
+Aspring Health · aspring.ca
+Перенос дизайна в Wix Harmony
+Спецификация v1
+Сентябрь 2026
+Документ переводит готовый макет в то, что вводится в Wix Harmony: палитра и шрифты для брендинга, промпты для агента Aria по каждой странице, соответствие функций встроенным приложениям Wix, и порядок подключения домена.
+Порядок работы.
+1) Создать сайт и задать брендинг (цвета + шрифты) — Aria дальше опирается на него. 2) Собрать страницы промптами, каждую отдельно. 3) Довести вручную в редакторе. 4) Подключить приложения: Bookings/ссылка, Stores, Forms, Multilingual. 5) Опубликовать на временном адресе. 6) Подключить домен последним шагом.
+1. Брендинг — цвета
+Задайте палитру до генерации страниц: Site Design → Color Palette. Тогда Aria будет использовать именно эти цвета, а не свои.
+Роль
+HEX
+Где применяется
+Фон — крем
+#FAF8F3
+Основной фон всех страниц
+Фон — тёплая панель
+#F2EDE2
+Полоса статистики, блок процесса консультации, чередующиеся секции
+Фон — шалфей светлый
+#E6EDE3
+Блок про страховые квитанции, акцентные карточки
+Акцент — шалфей
+#546B52
+Все кнопки, ссылки, подзаголовки капслоком, цены
+Акцент — hover
+#41543F
+Кнопки и ссылки при наведении
+Тёмно-зелёный
+#3A4B3C
+Финальный CTA-блок, футер, тёмная секция ретритов
+Текст — заголовки
+#35322A
+H1–H4
+Текст — основной
+#57514A
+Абзацы
+Текст — приглушённый
+#6E675E
+Подписи, капс-метки, даты
+Линии и рамки
+#E6E2DA
+Границы карточек, разделители таблиц
+Декор — шалфей блоб
+#D7E4D4
+Мягкие круглые формы в фоне героев
+Декор — персик блоб
+#EFDDCB
+Второй блоб, нижний левый угол героя
+Aria: Set the site color palette to these exact values. Main background #FAF8F3, secondary background #F2EDE2, tinted panel #E6EDE3, primary accent #546B52, accent hover #41543F, dark green #3A4B3C, heading text #35322A, body text #57514A, muted text #6E675E, borders #E6E2DA. Use the accent for all buttons and links. Do not introduce any other colors.
+2. Брендинг — шрифты
+Стиль
+Шрифт
+Размер
+Параметры
+H1 — герой главной
+Cormorant Garamond Regular
+66 px
+Межстрочный 1.05; курсив во второй строке
+H1 — внутренние страницы
+Cormorant Garamond Regular
+56 px
+Межстрочный 1.08
+H2 — секции
+Cormorant Garamond Regular
+34–40 px
+Межстрочный 1.2
+H3 — карточки
+Cormorant Garamond Medium
+25–27 px
+Межстрочный 1.3
+Цитата / философия
+Cormorant Garamond Italic
+21 px
+Левая линия 2 px цветом #B8CBB2, отступ 24 px
+Ведущий абзац
+Work Sans Light
+17 px
+Межстрочный 1.75, макс. ширина 620 px
+Основной текст
+Work Sans Regular
+15–16 px
+Межстрочный 1.75
+Мелкий / карточки
+Work Sans Regular
+14 px
+Межстрочный 1.7
+Капс-метка
+Work Sans Medium
+11.5 px
+Верхний регистр, трекинг 0.2em, цвет #5F7A5D
+Кнопка
+Work Sans Regular
+14 px
+Падинги 15×32 px, радиус 100 px (пилюля)
+Aria: Use Cormorant Garamond for all headings and Work Sans for all body text. Headings are regular weight, not bold. Buttons are fully rounded pills with 15px vertical and 32px horizontal padding. Small uppercase labels above headings use 11.5px Work Sans with 0.2em letter spacing in #5F7A5D.
+3. Общие правила макета
+Ширина контента 1240 px, боковые поля 40 px, контент по центру.
+Вертикальные отступы секций: 88–104 px сверху и снизу. Секции не «липнут» друг к другу.
+Радиус карточек 14 px, кнопок — полный (пилюля). Теней почти нет: разделение через тонкие рамки #E6E2DA и смену фона.
+Много воздуха. Ни одна секция не заполнена плотно; между заголовком и текстом 22–28 px.
+Декоративные круги в героях: мягкие размытые окружности 380–640 px, прозрачность 45–50%, частично за пределами экрана.
+Хедер закреплён сверху, полупрозрачный кремовый с размытием, нижняя граница 1 px.
+4. Хедер и футер
+Aria: Create a sticky header. Left: the wordmark "Aspring Health" in Cormorant Garamond 25px #3A5540, with a small uppercase line under it reading "Holistic Care · Montréal" in 9.5px letter-spaced #6E675E. Center: text navigation links — Massage, Naturopathy & Ayurveda, Retreats, Events, Digital Library — 13.5px Work Sans #57514A. Right: an EN / FR language switcher in 11.5px, then a pill button "Book a Session" in #546B52 with white text linking to https://victorianosenko.clinicsense.com/book/ opening in a new tab. Header background is #FAF8F3 at 92% opacity with a blur and a 1px bottom border #E6E2DA.
+Aria: Create a footer with a dark green #3A4B3C background and cream text. Four columns: (1) the wordmark and a one-line description of the practice; (2) the address 415 Boul. Saint-Joseph Est, Montréal, plus phone and email; (3) navigation links repeating the main menu; (4) a newsletter signup with an email field and a subscribe button. Below, a thin divider and a bottom row with the copyright line and social links to Instagram and Facebook.
+5. Страницы — промпты для Aria
+Генерируйте по одной странице за раз. После каждой — проверяйте цвета и шрифты, правьте вручную, только потом переходите к следующей.
+Главная
+Aria: Build the home page with these sections in order.
+1. Hero — two columns. Left: uppercase label "Plateau-Mont-Royal, Montréal", then a large Cormorant Garamond headline where the second line is italic in the sage accent color, then a paragraph written in first person by Viktoria about 15+ years of guiding clients to deep rest, nervous system healing and body-mind reconnection, then two buttons: a filled "Book a Session" and an outlined secondary one. Right: a large soft-rounded portrait image placeholder. Add two large blurred circles behind everything — sage #D7E4D4 top right, peach #EFDDCB bottom left.
+2. A full-width band on #F2EDE2 with three centered statistics separated by thin vertical lines: years of experience, modalities practised, clients seen. Numbers in Cormorant Garamond 44px in the accent color.
+3. Philosophy — image left, text right. Uppercase label, a 40px heading, two paragraphs in Viktoria's voice, then an italic pull quote with a left border, then a row of small pill-shaped credential chips: RMT, Naturopath, Craniosacral Therapist, Ayurvedic Practitioner.
+4. Featured services — three cards on #F2EDE2 background, each with an image at top, a serif title, two lines of description, and a small uppercase link with an arrow.
+5. Testimonials — three quote cards on a light warm background, serif italic quotes, attribution in small uppercase.
+6. Closing CTA — full-width dark green #3A4B3C band, centered serif heading, one line of text, and a cream pill button "Book a Session".
+Massage Therapy
+Aria: Build a Massage Therapy page.
+1. Page hero on the cream background with a soft sage circle behind: uppercase label, 56px serif heading, one lead paragraph.
+2. "Types of massage" — a list of five rows separated by thin horizontal lines, not cards. Each row is three columns: left the massage name in serif 26px with its duration in small uppercase under it; middle a paragraph describing it; right a short list of benefits.
+3. Pricing — a wide bordered table with rounded corners, header row on #F2EDE2 in small uppercase: Service, Duration, Price. Prices in Cormorant Garamond in the accent color, right-aligned. Beside it, a narrow card on #E6EDE3 explaining that Viktoria is a licensed RMT and provides insurance receipts, with a short list of accepted insurers.
+4. Booking section — image left, text right: a serif heading, a paragraph, a filled "Book Online" button linking to https://victorianosenko.clinicsense.com/book/ and a phone number beside it.
+Naturopathy & Ayurveda
+Aria: Build a Naturopathy & Ayurveda page.
+1. Page hero, same pattern as the massage page.
+2. Services — four large bordered cards in a two-by-two grid. Each: serif title, a descriptive paragraph, then a small uppercase label "What this brings you" followed by three bullet points.
+3. Consultation process — a band on #F2EDE2, heading and short lead, then four steps side by side. Each step has a 2px sage line across the top, a small step number in serif, a title, and two lines of description.
+4. Licenses and certifications — image left, a clean list right: each entry is the credential name with the issuing body and year under it, separated by thin lines.
+5. Related natural products — three small cards with image, name, and one line of description. A note that products are available in clinic.
+Retreats
+Aria: Build a Retreats page.
+1. Hero — a split section, not an overlay. Left half is a dark green #333D30 panel with an uppercase label, a 56px serif heading in cream and a lead paragraph. Right half is a full-height landscape photo.
+2. Upcoming retreats — two wide horizontal cards. Each: image on one side, and on the other a status pill, spots-remaining note, a 34px serif name, a line with dates and location, a description, a short list of what's included, then a bottom row with the price in serif and a "Request a Spot" button.
+3. Past retreats — a photo-forward gallery grid of six images with the retreat name and year overlaid or captioned beneath.
+4. Inquiry form — on a warm background: name, email, phone, a dropdown for which retreat, and a message field, with a submit button. Keep it to one column, generous spacing.
+Events
+Aria: Build an Events page for workshops and group sessions.
+1. Short page hero.
+2. A calendar-style list: each event is a full-width row with a date block on the far left (month in small uppercase, day in large serif), then the event title in serif, a line with time, location and format, a short description, and on the right the price and a "Register" button. Separate rows with thin lines, not cards.
+3. A filter row above the list with pill-shaped category chips: All, Workshops, Group Classes, Talks.
+4. A closing band inviting visitors to host a private group session, with a contact button.
+Digital Library
+Aria: Build a Digital Library page selling e-books and downloadable guides.
+1. Short page hero explaining these are instant downloads.
+2. A three-column grid of product cards. Each card: a tall book-cover image, a format label in small uppercase (PDF, Audio, Workbook), a serif title, one line of description, a page count or length, then a bottom row with the price in serif and a "Buy Now" button.
+3. A short band explaining the flow: purchase, instant download link, lifetime access.
+Use Wix Stores digital products so the file is delivered automatically after payment.
+Shop (создать, но скрыть из меню)
+Aria: Build a Shop page with a four-column product grid for physical and digital items — oils, herbal blends, gift cards. Each card: square product image, name, short description, price, and an "Add to Cart" button. Include a cart icon in the header that only appears on this page. Then hide this page from the site menu but keep it published and reachable by direct link.
+В Wix: Pages & Menu → нужная страница → Settings → отключить «Show in menu». Страница остаётся живой и включается одним переключателем, когда магазин запускается.
+6. Функции — какие приложения Wix подключить
+Функция
+Решение
+Примечание
+Запись на сеанс
+Внешняя ссылка
+Все кнопки «Book a Session» ведут на
+victorianosenko.clinicsense.com/book/
+, новая вкладка. Wix Bookings не нужен, пока вы на ClinicSense
+Digital Library
+Wix Stores → Digital products
+Файл выдаётся автоматически после оплаты; лимит размера файла — проверьте на своём тарифе
+Shop
+Wix Stores
+Тот же каталог, другая категория товаров. Страница скрыта до запуска
+Приём платежей
+Wix Payments или Stripe
+Нужен Business-тариф; для Канады подключите CAD как основную валюту
+Форма запроса на ретрит
+Wix Forms
+Уведомления на почту + автоответ клиенту
+Регистрация на события
+Wix Events
+Даёт RSVP, билеты и напоминания; список событий можно вывести своим дизайном
+Рассылка
+Wix Email Marketing
+Поле в футере подключается к контактам напрямую
+EN / FR
+Wix Multilingual
+Английский — основной, французский — вторичный. Переводы уже написаны в макете
+Карточки ретритов, событий, книг
+Wix CMS (опционально)
+Одна коллекция на тип контента + Repeater. Позволит добавлять новый ретрит без вёрстки
+7. CMS-коллекции (если решите вести контент через базу)
+Коллекция
+Поля
+Retreats
+Name, Slug, Status (upcoming/past), Start date, End date, Location, Description, Included (список), Price, Spots left, Hero image, Gallery
+Events
+Title, Date, Time, Duration, Category, Location, Format (in-person/online), Description, Price, Capacity, Registration link
+Library
+Title, Format, Cover image, Description, Length, Price, File, Published date
+Testimonials
+Quote, Attribution, Service, Show on home (да/нет)
+Services
+Name, Category (massage/naturopathy), Duration, Price, Description, Benefits, Image
+8. Фотографии
+Макет рассчитан на реальные снимки. Минимальный набор:
+Портрет Виктории для героя главной — вертикальный, мягкий естественный свет, 1200×1500 px и больше.
+Кабинет и процесс работы — 3–4 кадра: руки в работе, стол с маслами, общий вид пространства.
+Травы, масла, консультационный стол — для страницы натуропатии.
+Ретриты — широкий пейзажный кадр для героя плюс 6 снимков для галереи прошедших.
+Обложки книг — вертикальные, соотношение 3:4.
+Все фото — в одной цветовой обработке: тёплая, слегка приглушённая, без сильного контраста. Это половина ощущения «спа» в дизайне.
+9. Подключение домена aspring.ca
+Сначала соберите и опубликуйте сайт
+на временном адресе Wix. Домен подключается последним шагом.
+Сохраните текущие DNS-записи
+у нынешнего регистратора — особенно MX, если на домене работает почта. Скриншот всей зоны.
+Выберите способ:
+Connect (домен остаётся у регистратора, у него меняются nameservers на Wix — быстро, обратимо) или Transfer (домен переезжает к Wix целиком — нужен EPP-код, домен старше 60 дней, 5–7 дней ожидания).
+В Wix:
+Settings → Domains → Connect a domain you already own → ввести aspring.ca → следовать инструкции.
+Пропишите MX-записи заново
+в панели Wix, если почта была настроена.
+Проверьте через 24–48 часов:
+открывается ли сайт с www и без, работает ли HTTPS, приходит ли почта.
+10. Чек-лист перед публикацией
+Все кнопки «Book a Session» ведут на ClinicSense и открываются в новой вкладке.
+Адрес 415 Boul. Saint-Joseph Est указан в футере и в Google Business Profile одинаково.
+Shop скрыт из меню, но опубликован.
+Французская версия заполнена целиком, включая метки кнопок и тексты форм.
+Мобильная версия проверена на каждой странице отдельно — Wix не адаптирует всё автоматически.
+Формы отправляют письма на рабочий адрес, автоответ настроен.
+Тестовая покупка в Digital Library прошла и файл скачался.
+SEO: заголовок и описание для каждой страницы, alt-тексты у фотографий.
+Made with Claude Design

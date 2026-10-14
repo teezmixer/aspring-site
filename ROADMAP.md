@@ -1,118 +1,170 @@
-# Aspring.ca redesign: roadmap (v2, 2026-10-09)
+# Aspring.ca redesign: technical roadmap (v3, 2026-10-14)
 
-**Goal:** redesign aspring.ca "to a completely new level": elegant, high-quality, mobile-first, with much better SEO. It stays in the **existing Wix Studio Premium project**, in **three languages (FR default, EN, UK)**. The content is what exists now, redesigned. No new features are requested.
+**Goal:** redesign aspring.ca "to a completely new level" (elegant, high-quality, mobile-first, much better SEO), **inside the existing Wix Studio Premium project**, with the client's new functions added: digital products, retreat sign-up and events registration.
 
-**Pipeline (decided):**
+**Pipeline:**
 
 ```
-Claude Design  →  Figma  →  Wix Studio (import)  →  final tweaks in Wix
- (90% of work)    (minimal)   (sandbox branch)       (multilingual text, native blocks, SEO fields)
+Claude Design (+ Claude Code)  →  Figma  →  Wix Studio sandbox (Import from Figma)  →  native setup in Wix
+      ~60% of the work             ~5%                  import + fixes                    ~35% of the work
 ```
 
-Claude Code is used where code beats clicking: the SEO audit, and the copy/translation files. The GitHub repo is optional (see section 6).
+(The percentages are rough and get refined after Phase 0.)
 
 ---
 
-## 1. Facts and constraints
+## 1. Ground truth
 
-| Topic | Fact |
+### Client input (in `client-brief/`)
+- `spec-harmony-v1.html/.txt`: the client's own spec (Russian). **Draft only, free to change.** Written for Wix Harmony and its AI agent, so the agent prompts, the Harmony setup steps and the domain-connection steps are **ignored**. We keep: pages, section structure, functions table, CMS ideas, photo list, pre-launch checklist.
+- `mockup-full-site.html`: her 7-page prototype (EN/FR toggle, fake checkout modal). `mockup-digital-library-checkout.html`: library checkout flow. Both are **reference only**. They use her own palette and Work Sans.
+
+### Decisions
+| Topic | Decision |
 |---|---|
-| Wix repo / Git Integration | Syncs **Velo code only**. Page code files are empty stubs, so there's nothing to lose. Design is **not** in the repo. |
-| Import tool | Wix's **Figma to Wix Studio** plugin: Studio → Tools → Import from Figma. Imports styles (fonts, colors) and frames as Page / Section / Container / Stack. Frames over 1001px wide to import as a Section or Page. Frame width should match the Studio editing size. Custom fonts must be uploaded to Studio first. |
-| iframes | HTML embeds are iframes and are bad for SEO. Not used. |
-| Premium plan | Can be reassigned only to another **Studio** site (confirmed by you). Not to Headless. So we stay on Studio. |
-| Branches | The project has the **published site** and **one unpublished "sandbox" branch**. You couldn't create a second one. The client already started redoing the site in the existing sandbox. |
-| Payments | **None.** Booking links go to **ClinicSense** (external). Intake form records stay in ClinicSense. |
-| Blog | Native Wix Blog. **Keep it** (the client has started posting again). |
-| Retreats | Standalone external site. Scope to confirm. |
-| Holistiq (AI assistant) | Unreleased, about a year old, exists on the live site but not in the sandbox. Scope to confirm. |
-| Fonts | Logo uses **Proprietor Roman**. Body text is **Montserrat**. Montserrat covers Latin Extended and Cyrillic. |
-| Colors | **Dark green `#1A3320`** and **beige `#F5F5DA`** are fixed. **Sage `#3D7A56`** and any others can change for the best design. |
-| Logo | Recreated in Figma, with the color switching by background. Export light and dark SVG variants. |
+| Platform | **Wix Studio** (Premium plan can only move to another Studio site). Not Harmony, not Headless. |
+| Domain | Stays as is. No transfer needed. |
+| Languages | **English (default) + French only. Ukrainian is dropped.** |
+| Booking | Stays on **ClinicSense**: every "Book a Session" button links externally to `victorianosenko.clinicsense.com/book/` in a new tab. Wix Bookings is not needed. |
+| Email marketing | **Brevo** for all automations and communications. What she wants from it is still to be clarified, but it doesn't block design. |
+| Blog | Keep (native Wix Blog), restyled. Placeholder page with the real header and footer in the design. |
+| Name | **Aspring Health Center** everywhere (matches the Google Business Profile); the header wordmark says **Aspring Health**. |
+| Design brief | **`DESIGN_BRIEF.md`** is the single entry point for Claude Design: sources, rules, page order, import rules, pipeline-test checklist. |
+| Text | **`CONTENT.md` is the ground-truth text for the design** (EN + FR, tagged by source). Real service data is in `content/source/`. |
+| Fonts | Body is **sans-serif**, serif only for headings and accents. Direction: **Cormorant Garamond** (display, already in her mockup) + **Montserrat** (body, already in your 36 emails and the live site). Her mockup uses Work Sans: Montserrat is the closer match to the existing brand, so the final choice needs a quick check. Cyrillic is no longer required, only French accents. |
+| Colors | **Dark green `#1A3320`** and **beige `#F5F5DA`** fixed (from the emails). Her draft shades (`#FAF8F3`, `#F2EDE2`, `#E6EDE3`, `#546B52`, `#3A4B3C`, `#35322A`, `#57514A`, `#6E675E`, `#E6E2DA`) are standardized into one palette in the design-system step. Not now. |
+| Branches | Published site + one unpublished **sandbox**. **Overwriting it is approved by the client.** |
+| Plan | **Wix Studio Standard**, which allows all needed functions (Stores, payments, Events, Forms). Names differ from the generic tier names. Verify checkout can accept CAD payments before relying on it. |
+| Pages | **Only the new spec.** The old site is deprecated. Old pages that disappear get 301 redirects. **Facts from the old site must stay consistent** (see `FACTS.md`). |
+| Voice | **Victoria only**, the founder and the only working therapist. Remove Halina from the site.  The current emails already sign as Victoria only. |
+| Editing | **The client edits the site herself**, so it stays on Studio with native elements: no iframes for text, minimal custom code, nothing that breaks when she edits a text box. |
+| Photos | All exist. The folder goes to Claude Design to fill the layouts, after the design is done. |
+| Logo | Image only (no Proprietor Roman web license). Real text never uses that font. |
+| Products / events | Draft placeholders from her mockups are the content for now. Real products to be clarified later. Events and retreats are only the ones in the drafts. |
 
-## 2. Scope (to confirm with the client)
-
-| Page | Live URL (FR) | Notes |
+### Pages from her spec (replaces the earlier scope table)
+| # | Page | Notes |
 |---|---|---|
-| Home | `/` | In scope |
-| Our Team | `/about-us`, `/our-mentors` | In scope. Check the difference between the two |
-| Services | `/our-services` | In scope. Booking buttons go to ClinicSense |
-| Contact | (form/footer, `/book-session`) | In scope. Confirm which form to keep |
-| FAQ | `/faq-holistiq` | Content is Holistiq-related. Confirm |
-| Blog (index + post template) | `/blog`, `/post/…` | Keep. Native Wix Blog, see section 5 |
-| Pricing plans | `/pricing-plans/list` | Probably remove, since no payments. Confirm |
-| Plan customization | `/plan-customization` | Likely Holistiq. Confirm |
-| Holistiq | `/holistiq` | **Ask:** redesign, leave or remove |
-| Retreats | `/book-retreat`, external site | **Ask:** redesign or leave |
+| 1 | Home | Hero, stats band, philosophy, featured services, testimonials, closing CTA |
+| 2 | Massage Therapy | Five massage types, pricing table, insurance card, booking |
+| 3 | Naturopathy & Ayurveda | Services, consultation process, licenses, related products |
+| 4 | Retreats | Upcoming + past retreats, inquiry form |
+| 5 | Events | Calendar-style list with category filter, registration |
+| 6 | Digital Library | Product grid, purchase and download (new) |
+| 7 | Shop | Created but **hidden from the menu**, cart icon only on this page (new, later) |
+| + | Blog (index + post) | Keep. Native |
+| + | Header / footer | Shared. Includes the EN/FR switcher and a Brevo newsletter form |
 
-## 3. Questions for the client (send first)
-1. Which pages should be redesigned? (see the table above)
-2. Is Holistiq and its AI assistant still wanted? Should it come back in the redesign or be dropped?
-3. Retreats: redesign it, link to it, or leave it alone?
-4. Online payments, shop or online services needed? (Assumed **no**: all booking goes through ClinicSense.)
-5. Is it OK to **overwrite the sandbox** where she started redoing the site? Does she need anything from it saved first?
-6. Does she edit page text herself, or do you handle all updates?
-7. Does she have her own Proprietor Roman license (or Adobe Fonts) for web use? If not, the logo stays as an image and headings use a licensed font.
-8. Anything she wants to keep, change or remove in the content (team bios, reviews, prices)?
-9. Who owns the ClinicSense links, and do they change?
+**Dropped (decided):** About/Team, FAQ, Contact, Book Session, Holistiq/AI assistant, Pricing Plans, Plan Customization and everything under `/uk`. Each old URL gets a **301 redirect** to the closest new page, so the existing rankings on aspring.ca carry over. The new site stays on the same domain, because it is already indexed well. The redirect map is a Phase 3 deliverable.
 
-## 4. Phases
+### What Victoria asked for (her words, summarized)
+- **Calm, elegant, uncluttered. Not old-fashioned.** Professional and tidy.
+- **It has to convert.** A visitor lands, feels it, and wants to book a session.
+- **SEO built in**, with all texts rewritten to be SEO-strong (titles, headings, descriptions, alt text).
+- **Same domain.** It is already indexed well, hence the 301 redirect plan.
+- **No contradictions.** Same years of experience, same opening hours and the same facts everywhere (`FACTS.md`).
+- **Checked on mobile, tablet and desktop.** Mobile matters most because many visitors use it.
+- **Bilingual:** English and French.
 
-**Phase 0: Pipeline test (do before designing everything).** One test page, ideally Home's hero + a card grid, desktop and mobile:
-1. Design in Claude Design. Test whether it **exports to Figma directly**. If not, fall back to HTML → Figma through the Figma tools available in Claude Code.
-2. Check the Figma result (auto layout, text styles, fonts).
-3. Import into the **sandbox** (Tools → Import from Figma).
-4. Check the result: headings (H1/H2 can be set per text element in Studio), fidelity, **mobile breakpoint on a real phone**, fonts, how text translates in Multilingual.
-5. Check what **merging the sandbox into main** does (whole-site replacement? multilingual? SEO settings? URLs?). **Do not merge anything until this is understood.** Ask Wix support if it isn't clear.
-6. Output: go/no-go and a list of Figma-structure rules ("always auto layout, name layers like X") for Claude Design.
 
-**Phase 1: Foundation (Claude Design).**
-- Brand kit: logo variants, `#1A3320`, `#F5F5DA`, sage and supporting tones, tone of voice (from the email design work).
-- Type: keep Montserrat for body. Choose a display font with **Latin Extended + Cyrillic** that sits well beside the Proprietor logo. Shortlist: Cormorant Garamond, Playfair Display, Lora. Test with real FR/UK text.
-- Grid, spacing, components (hero, cards, therapist profile, review strip, FAQ accordion, CTA band, header/footer, language switcher).
-- Mobile first: every component is designed at 390px and at desktop (over 1001px).
+## 2. Functions → where they are built (her section 6)
 
-**Phase 2: SEO spec during design (not after).** For each page, a short spec that is designed *into* the page:
-- Primary keyword and search intent.
-- H1 (exactly one), H2/H3 outline, meta title (≤60 chars) and meta description (≤155 chars), in all three languages.
-- Image alt text, internal links, schema type (`HealthAndBeautyBusiness`/`LocalBusiness`, `Person` for therapists, `FAQPage`, `Service`, `BlogPosting`).
-- In Figma, **name layers by heading level** (e.g. `H1/Hero title`) so the hierarchy is clear after import.
-- Baseline and old text come from `snapshot/` in this repo. The 12-of-13 missing meta descriptions and the heading problems are listed in the snapshot files.
+| Function | Wix feature | Needs | Built in |
+|---|---|---|---|
+| Book a Session | External link to ClinicSense | Nothing | Design / button link |
+| Digital Library (e-books, guides) | **Wix Stores → digital products** | Business plan, payment provider | **Wix native** (design reference from Claude Design) |
+| Shop (hidden, later) | Wix Stores | Same | Wix native |
+| Payments | Wix Payments or Stripe | Business plan, **CAD** as main currency | Wix native |
+| Retreat interest / inquiry form | Wix Forms (email notification + autoresponder) | Nothing | Wix native |
+| Event registration | **Wix Events** (RSVP, tickets, reminders) | Payments if tickets are paid | Wix native |
+| Newsletter, retreat interest, behavior data | **Brevo** (replaces her "Wix Email Marketing") | Brevo account | See section 3a |
+| EN / FR | **Wix Multilingual** (EN default) | Nothing | Wix native: translations entered manually |
+| Retreats / events / books / testimonials / services as repeatable cards | **Wix CMS** (optional) | Nothing | See section 3 |
+| Blog | Wix Blog | Nothing | Wix native, restyled |
 
-**Phase 3: Page designs (Claude Design).** Order: Home → Services → Our Team → Contact → FAQ → other confirmed pages. Each as desktop + mobile frames with real copy in the three languages.
+**Plan:** Studio Standard allows all the functions above. Remaining check: a test purchase and download in the sandbox before launch.
 
-**Phase 4: Figma → Wix sandbox.** Import styles first, then each page. Replace the sandbox content with the new design (after the client OKs it). Fix heading tags, set SEO fields, enter FR/EN/UK text, and add native blocks.
+**Native widgets can't come in through Figma.** Stores product pages, cart, checkout, Events, Forms internals and the Blog are Wix apps. Design them in Claude Design as a visual reference, then match them in Wix with each app's design settings plus the shared header, footer and styles that did come through Figma. The prototype's fake checkout modal is only a mock. **Claude Design builds a clearly labeled placeholder for every native block** (product page, cart, checkout, event detail and registration, blog index and post, forms, newsletter form, thank-you states), tagged "Native Wix block", so Victoria can review the whole experience before anything moves to Wix.
 
-**Phase 5: Blog** (see below), then **SEO check** (see section 6).
+## 3. CMS in plain terms
+Wix CMS is a built-in database. You make a **collection** (a table: e.g. "Retreats" with name, dates, price, photos) and bind a **repeater** or **dynamic page** to it in the editor. Adding a retreat then means adding a row, with no layout work, and each item can get its own URL and SEO fields.
 
-**Phase 6: QA and launch.**
-- Compare every page with `snapshot/` (nothing lost), on a real phone and desktop.
-- Check forms, the ClinicSense links, the language switcher and 301 redirects for any URL that changed.
-- Merge or publish the sandbox (after Phase 0's findings). Verify the live site, Search Console and the sitemap.
+Recommended (keep it small, because every collection is manual binding work in Wix):
+- **Use CMS for:** Retreats (upcoming vs past), Testimonials, Services/pricing table (EN and FR text per row).
+- **Don't need CMS for:** Events (Wix Events has its own data), Library/Shop (Wix Stores has its catalog), Blog (native).
+- The rest of the content stays as static page content.
 
-## 5. Blog
-The Wix Blog is a native app, and its feed and post pages use Wix's own templates, so the Figma import isn't the right tool for them. Plan:
-- Design the blog index and post page in Claude Design as the **visual reference**.
-- In Wix, apply them with the Blog's own design settings (fonts, colors, layout preset) and the shared header and footer that came in through Figma, with CSS as a polish step if needed.
-- Existing posts stay. Add `BlogPosting` schema, alt text and meta descriptions.
+Collection data can be prepared in this repo (CSV/JSON in EN and FR) and imported, so no one retypes it.
 
-## 6. SEO and the repo
-- **Design stage:** SEO structure goes into each page's spec (Phase 2).
-- **After import:** a **Claude Code SEO check** that fetches the rendered HTML (published or preview URL) and verifies H1 count, titles, descriptions, schema, `hreflang`, alt text, canonical tags and sitemap. An unpublished sandbox isn't crawlable, so this check needs a published or preview URL, or screenshots/exports of the editor.
-- **The repo is the shared home for the design work.** Claude Design (connected to the design system) and Claude Code both read and write it. It holds: `brand/tokens.md` (colors, type, voice), `snapshot/` (the "before": text, SEO and screenshots for FR, EN, UK), the per-page SEO spec and three-language copy files, the design-system source, and optional Velo `wixSeo` code if setting meta tags from code turns out faster than typing them in Wix.
-- **Blog page in the design:** include a placeholder blog page with the real header and footer. In Wix, the native Blog block fills the main area.
+**You don't need a separate page per collection.** A collection is just data. You place a repeater (cards, rows, gallery) on any existing page, such as Testimonials on Home, the pricing rows on Massage, Upcoming and Past on Retreats, and connect it to the collection. A separate *dynamic item page* (one URL per row, e.g. one page per retreat) is only needed if you want each item to have its own URL, and it can be added later. Design implication: build the pricing table as repeating **rows**, not a Wix Table element, so it can be connected to the collection.
 
-## 6a. Pipeline tools to evaluate in Phase 0
-- **Claude Design → Figma:** direct export if Claude Design offers it. Otherwise **Anima** (Claude/HTML → Figma) or the Figma tools available in Claude Code. Pick whichever keeps auto layout, text styles and layer names intact.
-- Test criteria for each: auto layout preserved, fonts mapped, layer names kept, and a clean mobile frame.
+## 3a. Brevo ↔ Wix: one contact database
+Goal: all contacts end up in Brevo, so retreat announcements, flows and segments live in one place.
 
-## 6b. Fonts (decision for the design system)
-- **Body:** Montserrat (weights 300-600), already used in all 36 emails and fully Latin Extended and Cyrillic.
-- **Display:** pick from Cormorant Garamond (first choice: light, luxurious, pairs well with Montserrat 300), Playfair Display, Lora. **Verify Cyrillic and French accents in the specimen**, then test beside the logo with real FR and UK headlines.
-- Budget: two families, 3-4 weights.
-- Upload to Studio before the Figma import so styles map correctly.
+**Decision: Wix native forms only, no second set of Brevo forms.** Every form on the site is a Wix Form (or a Wix app's own form). Submissions are copied to Brevo by a small script or connector, so there's one form to design, test and maintain per use case. The sync options, simplest first:
 
-## 7. Tomorrow
-1. Send the client questions (section 3) and gather her materials.
-2. Finalize the scope table and the roadmap.
-3. Start Phase 0: choose the test page and the pipeline path (Claude Design → Figma).
+1. **Velo backend script (code in this repo).** When a Wix form is submitted, a backend handler calls Brevo's API to create or update the contact (matched by email) and set attributes, such as `RETREAT_INTERESTED = yes` or adding to a list. The Brevo API key is stored in Wix's Secrets Manager. The same pattern later covers event registrations and digital-product purchases (`LAST_EVENT_ATTENDED`, `DIGITAL_PRODUCTS_BOUGHT`), which is your behavior-data idea. **To verify:** the exact backend event Wix offers for form submissions, and that Brevo's "create or update contact" call updates existing contacts without duplicating.
+2. **Connector tools** (Zapier, Make, Outfunnel). Third-party listings show Wix Forms, Events, eCommerce and CMS forms as triggers that add or update Brevo contacts ([Zapier](https://zapier.com/apps/brevo/integrations/wix/255613794/manage-cms-forms-in-wix-to-add-or-update-contacts-in-brevo), [Outfunnel](https://outfunnel.com/brevo-wix-forms-integration/)). They add a monthly cost, so use them only if option 1 turns out to be too much work.
+
+I did not find documentation of an official Brevo plugin for Wix, so check Brevo's help center and the Wix App Market before relying on that route.
+
+**Forms the design needs, and where each lands:**
+
+| Form | Where | Sync to Brevo |
+|---|---|---|
+| Newsletter | Footer | New contact → newsletter list |
+| Retreat interest / inquiry (name, email, phone, which retreat, message) | Retreats page | Contact + `RETREAT_INTERESTED = yes` |
+| Event registration | Events (Wix Events) | Contact + event attended (later) |
+| Digital product purchase | Library (Wix Stores) | Contact + product bought (later) |
+| Private group session inquiry | Events page closing band | Contact + tag |
+
+The newsletter and retreat forms are priority one. Event and purchase behavior can come later.
+
+## 4. Work split
+
+| Where | What |
+|---|---|
+| **Claude Design + Claude Code (~60%)** | Design system (brand tokens, fonts, components). All pages desktop + mobile in EN and FR, with real copy. SEO spec per page (H1, outline, meta title/description, schema, alt text). Redirect map (old URL → new URL, including `/uk`). Placeholder blog page, library/shop/checkout visual references. CMS data files. Final SEO audit scripts. |
+| **Figma (~5%)** | Receives the export. Check auto layout, text styles, layer names (`H1/…`). Light cleanup only. |
+| **Wix Studio (~35%)** | Upload fonts, import styles, import pages from Figma into the sandbox. Set heading tags, fix mobile breakpoint. Multilingual: enter FR text. Stores (digital products, payments, CAD, taxes), Events, Forms + notifications, CMS bindings, Blog styling, Brevo form, redirects (CSV import), SEO fields. Final publish. |
+
+## 5. Phases
+
+**Phase 0: Pipeline test, before designing everything.** One page (Home hero + a card grid), desktop and mobile. Claude Design → Figma (direct export, Anima, or the Figma tools in Claude Code) → Studio sandbox. Check: headings, auto-layout fidelity, mobile on a real phone, fonts, how EN/FR text behaves in Multilingual. Also check what **merging the sandbox into main** does (multilingual, SEO settings, URLs). Don't merge before this is understood.
+
+**Phase 1: Scope lock.** Page list is decided (section 1). Fill `FACTS.md` with Victoria (section 7).
+
+**Phase 2: Design system.** Brand tokens (`brand/tokens.md`), fonts, palette standardization, components, mobile-first. Frames over 1001px wide for import.
+
+**Phase 3: SEO spec (during design).** Per page: primary keyword, H1, heading outline, meta title (≤60) and description (≤155) in EN and FR, alt text, schema (`HealthAndBeautyBusiness`, `Service`, `Person`, `Event`, `Product`, `BlogPosting`, `FAQPage`), internal links. Redirect map. Old-site baseline is in `snapshot/`.
+
+**Phase 4: Page designs.** Order: Home → Massage → Naturopathy → Retreats → Events → Digital Library → header/footer → blog placeholder → Shop. EN and FR copy for each, desktop, **tablet** and mobile. Native-block placeholders (see section 2) are included. **Review with Victoria as a clickable HTML prototype before moving anything to Wix.**
+
+**Phase 5: Figma → Wix sandbox.** Import styles, then pages. Per-page checklist: heading tags, mobile, SEO fields, FR text.
+
+**Phase 6: Wix apps.** Business plan check, Stores + payments, Events, Forms, CMS, Brevo form, Blog styling.
+
+**Phase 7: SEO check with Claude Code.** Fetch the rendered HTML from a published or preview URL: H1 count, titles, descriptions, schema, `hreflang`, canonicals, alt text, sitemap, redirects.
+
+**Phase 8: QA and launch.** Compare against `snapshot/` (nothing lost), real-phone tests, test purchase and download, form notifications, ClinicSense links in new tabs, address consistency (415 Boul. Saint-Joseph Est), Search Console. Merge or publish.
+
+## 6. SEO notes
+- **English as the default** changes the URL structure: today `/` is French and `/en` is English. We decide what `/` serves, where French lives, and add 301 redirects, updated `hreflang` and `x-default`. Check search demand in French vs English for Montréal before locking.
+- Missing meta descriptions (12 of 13), missing/duplicate H1s and thin schema on the current site are in `snapshot/`.
+- Native Stores/Events/Blog pages get their SEO from each app's own settings, so those fields are Wix-native work.
+
+## 7. Open items
+
+**Answered (2026-10-14):** pages (new spec only), voice (Victoria only), payments (yes, products still to clarify), events and retreats (only the drafts), photos (all exist), sandbox (overwrite OK), languages (EN default + FR), client edits herself (so Studio), logo (image only), Brevo approach (your call).
+
+**Still open:**
+1. **Facts for `FACTS.md`:** contact details and prices are now filled from the approved email and ClinicSense. Still needed: years of experience, hours of practice, clients vs. sessions (950), rating, credentials, the Monsalada wording, and which services appear on the site.
+2. **ClinicSense text cleanup (Victoria):** the neck-therapy description names "Andrey Aspring" and several service texts make strong health claims. The website versions are already softened in `CONTENT.md`; fixing ClinicSense keeps both consistent.
+3. **Products:** what the Digital Library and Shop actually sell (the drafts are placeholders).
+4. **Brevo:** which forms to build first (section 3a) and test the contact-update behavior.
+5. **Social URLs and email address** for the footer.
+
+## 8. Next
+1. Fill `FACTS.md` with Victoria.
+2. Run Phase 0 (one page through Claude Design → Figma → sandbox, desktop, tablet and mobile).
+3. Design the system, then the pages and the native-block placeholders.

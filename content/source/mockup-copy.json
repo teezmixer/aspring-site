@@ -1,0 +1,1200 @@
+{
+ "en": {
+  "book": "Book a Session",
+  "nav": {
+   "massage": "Massage Therapy",
+   "holistic": "Naturopathy & Ayurveda",
+   "retreats": "Retreats",
+   "events": "Events",
+   "library": "Digital Library",
+   "shop": "Shop"
+  },
+  "form": {
+   "name": "Your name",
+   "email": "Email address",
+   "msg": "What are you hoping for?",
+   "send": "Send inquiry"
+  },
+  "home": {
+   "kicker": "Plateau-Mont-Royal, Montréal",
+   "t1": "Come home",
+   "t2": "to your body.",
+   "lede": "I'm Viktoria. For more than fifteen years, people have come to me exhausted, guarded, living a little outside of themselves — and left breathing differently. Massage, naturopathy, craniosacral therapy and Ayurveda are my tools. Deep restoration is the work.",
+   "cta2": "Explore the work",
+   "stats": [
+    {
+     "n": "15+",
+     "l": "Years in practice"
+    },
+    {
+     "n": "4",
+     "l": "Healing modalities"
+    },
+    {
+     "n": "RMT",
+     "l": "Insurance receipts"
+    }
+   ],
+   "philKicker": "My philosophy",
+   "philTitle": "The body heals when it finally feels safe enough to.",
+   "phil1": "Most people arrive holding something: a shoulder that never softens, sleep that never deepens, digestion that has been off for years. I don't treat those as separate problems. They are usually one nervous system asking for a different pace.",
+   "phil2": "So we begin slowly. I read the tissue, the breath, the pulse, the story you tell about your days. Then we choose the route — hands-on work to release what is held, herbs and food to rebuild what is depleted, craniosacral work for what needs stillness rather than pressure.",
+   "philQuote": "I am not here to fix you. I am here to give your body the conditions it has been waiting for.",
+   "credTitle": "Credentials & training",
+   "creds": [
+    "Registered Massage Therapist (RMT)",
+    "Naturopath",
+    "Craniosacral Therapist",
+    "Ayurvedic Practitioner",
+    "15+ years in clinical practice"
+   ],
+   "svcTitle": "Where we can begin",
+   "svcLede": "Three doors into the same work. Most clients move between them over time, and I will tell you honestly which one you need first.",
+   "svcs": [
+    {
+     "t": "Massage Therapy",
+     "d": "Therapeutic, deep tissue, prenatal and craniosacral sessions. RMT receipts for insurance.",
+     "cta": "See sessions & pricing",
+     "href": "#massage",
+     "slot": "ah-svc-massage",
+     "ph": "Massage session"
+    },
+    {
+     "t": "Naturopathy & Ayurveda",
+     "d": "Root-cause consultations, herbal protocols, seasonal Ayurvedic guidance and nutrition.",
+     "cta": "See consultations",
+     "href": "#holistic",
+     "slot": "ah-svc-nat",
+     "ph": "Herbs & consultation"
+    },
+    {
+     "t": "Retreats & Events",
+     "d": "Small-group immersions and workshops for people who want to go deeper than an hour.",
+     "cta": "See what is coming",
+     "href": "#retreats",
+     "slot": "ah-svc-ret",
+     "ph": "Retreat setting"
+    }
+   ],
+   "tTitle": "In their words",
+   "tms": [
+    {
+     "q": "I came in for my lower back and left with the first full night of sleep I had had in months. Viktoria works with the whole person, not the complaint.",
+     "a": "Marie-Claude L. · Montréal"
+    },
+    {
+     "q": "She found the thread between my digestion and my stress in one consultation. The herbal protocol changed my winter.",
+     "a": "Daniel R. · Mile End"
+    },
+    {
+     "q": "The craniosacral sessions did something I cannot quite explain. My body finally stopped bracing.",
+     "a": "Sophie B. · Outremont"
+    }
+   ],
+   "ctaTitle": "Ready to begin?",
+   "ctaText": "Sessions are booked online and confirmed by email. If you are unsure which one is right, book an initial consultation and we will decide together."
+  },
+  "mas": {
+   "kicker": "Registered Massage Therapy",
+   "title": "Hands-on work for a body that has been holding on too long.",
+   "lede": "Every session begins with a short assessment: where it hurts, how you sleep, what your days ask of you. Pressure, pace and technique are chosen from there — never from a menu.",
+   "typesTitle": "Types of massage offered",
+   "types": [
+    {
+     "n": "Therapeutic Swedish",
+     "dur": "60 / 75 / 90 min",
+     "d": "Flowing, full-body work at moderate pressure. The best starting point if you are new to massage or your body simply needs to downshift.",
+     "b": [
+      "Lowers cortisol and heart rate",
+      "Improves circulation and lymph flow",
+      "Restores sleep quality"
+     ]
+    },
+    {
+     "n": "Deep Tissue",
+     "dur": "60 / 75 / 90 min",
+     "d": "Slow, precise pressure into chronic tension — neck, shoulders, hips, lower back. Firm, but always within what your tissue can accept.",
+     "b": [
+      "Releases long-held adhesions",
+      "Restores range of motion",
+      "Relieves desk and postural strain"
+     ]
+    },
+    {
+     "n": "Craniosacral Therapy",
+     "dur": "60 / 75 min",
+     "d": "Very light contact at the skull, spine and sacrum, following the rhythm of the fluid around your nervous system. Almost nothing appears to happen; a great deal does.",
+     "b": [
+      "Calms an over-alert nervous system",
+      "Eases headaches and jaw tension",
+      "Supports recovery from concussion and burnout"
+     ]
+    },
+    {
+     "n": "Ayurvedic Abhyanga",
+     "dur": "75 / 90 min",
+     "d": "Warm herbal oil applied in long, rhythmic strokes chosen for your constitution. Deeply grounding, particularly in Montréal winters.",
+     "b": [
+      "Nourishes dry, depleted tissue",
+      "Settles anxiety and restlessness",
+      "Improves digestion and sleep"
+     ]
+    },
+    {
+     "n": "Prenatal Massage",
+     "dur": "60 / 75 min",
+     "d": "Side-lying, fully supported work for every trimester, focused on the low back, hips and swelling in the legs.",
+     "b": [
+      "Relieves pelvic and lumbar load",
+      "Reduces fluid retention",
+      "Creates space to rest"
+     ]
+    }
+   ],
+   "priceTitle": "Sessions & pricing",
+   "thSvc": "Session",
+   "thDur": "Duration",
+   "thPrice": "Rate",
+   "prices": [
+    {
+     "n": "Therapeutic / Deep Tissue",
+     "d": "60 min",
+     "p": "$110"
+    },
+    {
+     "n": "Therapeutic / Deep Tissue",
+     "d": "75 min",
+     "p": "$130"
+    },
+    {
+     "n": "Therapeutic / Deep Tissue",
+     "d": "90 min",
+     "p": "$155"
+    },
+    {
+     "n": "Craniosacral Therapy",
+     "d": "60 min",
+     "p": "$115"
+    },
+    {
+     "n": "Ayurvedic Abhyanga",
+     "d": "75 min",
+     "p": "$145"
+    },
+    {
+     "n": "Prenatal Massage",
+     "d": "60 min",
+     "p": "$110"
+    }
+   ],
+   "priceNote": "Taxes included. 24-hour cancellation policy. Packages of five sessions available on request.",
+   "insKicker": "RMT",
+   "insTitle": "Insurance receipts provided",
+   "insText": "As a Registered Massage Therapist, I issue receipts accepted by most Québec extended-health plans.",
+   "insList": [
+    "Receipt emailed after every session",
+    "Accepted by most private insurers",
+    "Direct billing not required"
+   ],
+   "bookTitle": "Book your session",
+   "bookText": "Online booking shows my live availability. Choose a time, tell me briefly what brings you in, and you will receive a confirmation by email.",
+   "bookBtn": "Open the booking calendar",
+   "bookNote": "Evenings and Saturdays available"
+  },
+  "nat": {
+   "kicker": "Naturopathy & Ayurveda",
+   "title": "Care that looks for the cause, not only the symptom.",
+   "lede": "Naturopathy gives me the assessment tools; Ayurveda gives me a framework for constitution and season. Together they let us build something you can actually live with — food, herbs, rhythm, rest.",
+   "brings": "What it brings you",
+   "svcs": [
+    {
+     "n": "Naturopathic Consultation",
+     "d": "A long first appointment covering history, digestion, sleep, cycle, stress and energy. We map patterns, then build a protocol in stages so nothing is overwhelming.",
+     "b": [
+      "A clear picture of what is driving your symptoms",
+      "A staged plan for food, supplements and habits",
+      "Follow-up adjustments as your body responds"
+     ]
+    },
+    {
+     "n": "Ayurvedic Assessment",
+     "d": "Pulse and constitution reading to identify your dosha balance and where it has drifted. From there, seasonal recommendations for eating, sleeping and moving.",
+     "b": [
+      "Your constitutional baseline in plain language",
+      "Seasonal routines suited to Montréal",
+      "Practices that steady mood and digestion"
+     ]
+    },
+    {
+     "n": "Herbal & Nutritional Protocols",
+     "d": "Targeted formulas and food strategy for digestion, hormonal balance, immunity, sleep and depletion. Prepared in small batches, adjusted at each visit.",
+     "b": [
+      "Formulas matched to you, not a category",
+      "Realistic food guidance, no elimination for its own sake",
+      "Clear dosing and duration"
+     ]
+    },
+    {
+     "n": "Nervous System Recovery",
+     "d": "For burnout, chronic stress and long recovery. Combines naturopathic support with craniosacral sessions and Ayurvedic daily rhythm.",
+     "b": [
+      "Deeper, more continuous sleep",
+      "Steadier energy through the day",
+      "Better tolerance for stress"
+     ]
+    }
+   ],
+   "procTitle": "The consultation process",
+   "procLede": "Four steps, usually over three months. You leave every appointment knowing exactly what to do next.",
+   "steps": [
+    {
+     "n": "One",
+     "t": "Intake",
+     "d": "A detailed questionnaire before we meet, so our time together is spent on you rather than paperwork."
+    },
+    {
+     "n": "Two",
+     "t": "Assessment",
+     "d": "75 minutes: history, pulse and constitution reading, and where relevant, lab review."
+    },
+    {
+     "n": "Three",
+     "t": "Protocol",
+     "d": "A written plan within a week — food, herbs, supplements, routine — staged over the coming weeks."
+    },
+    {
+     "n": "Four",
+     "t": "Follow-up",
+     "d": "Two check-ins at four and eight weeks to adjust dosing and refine what is working."
+    }
+   ],
+   "licTitle": "Licenses & certifications",
+   "lics": [
+    {
+     "n": "Registered Massage Therapist (RMT)",
+     "o": "Fédération québécoise des massothérapeutes",
+     "y": "Active"
+    },
+    {
+     "n": "Diploma in Naturopathy",
+     "o": "Accredited naturopathic college",
+     "y": "Certified"
+    },
+    {
+     "n": "Craniosacral Therapy, Levels I–IV",
+     "o": "Upledger-method training",
+     "y": "Certified"
+    },
+    {
+     "n": "Ayurvedic Practitioner",
+     "o": "Ayurvedic institute training",
+     "y": "Certified"
+    },
+    {
+     "n": "Continuing education",
+     "o": "Annual clinical training since 2010",
+     "y": "Ongoing"
+    }
+   ],
+   "prodTitle": "Related natural products",
+   "prodLede": "A small, curated shelf — the herbs and oils I actually use in the clinic. Available at your appointment or by request.",
+   "prods": [
+    {
+     "n": "Herbal Tea Blends",
+     "d": "Digestive, calming and immune blends, prepared in small batches.",
+     "slot": "ah-prod-tea",
+     "ph": "Tea blends"
+    },
+    {
+     "n": "Ayurvedic Body Oils",
+     "d": "Warming and cooling oils for daily self-massage, chosen by constitution.",
+     "slot": "ah-prod-oil",
+     "ph": "Body oils"
+    },
+    {
+     "n": "Practitioner Supplements",
+     "d": "Professional-grade formulas dispensed only alongside a consultation.",
+     "slot": "ah-prod-supp",
+     "ph": "Supplements"
+    }
+   ]
+  },
+  "ret": {
+   "kicker": "Retreats",
+   "title": "Time away, long enough for something to change.",
+   "lede": "An hour on the table can interrupt a pattern. Three days can rewrite it. Retreats are small — eight to twelve people — and built around rest rather than activity.",
+   "upTitle": "Upcoming retreats",
+   "inquire": "Inquire",
+   "up": [
+    {
+     "tag": "Registration open",
+     "spots": "4 of 12 places left",
+     "n": "Winter Stillness",
+     "when": "February 13–16, 2027",
+     "where": "Laurentians, QC",
+     "d": "Four days in deep winter: daily bodywork, Ayurvedic meals built for cold season, craniosacral sessions, long unstructured afternoons. For people running on empty.",
+     "inc": [
+      "Three nights, private room",
+      "Two individual treatments",
+      "All meals, Ayurvedic kitchen",
+      "Daily breathwork and guided rest"
+     ],
+     "p": "From $1,480",
+     "slot": "ah-ret-winter",
+     "ph": "Winter retreat — Laurentians"
+    },
+    {
+     "tag": "Early booking",
+     "spots": "10 places",
+     "n": "Spring Reset",
+     "when": "May 8–11, 2027",
+     "where": "Eastern Townships, QC",
+     "d": "A seasonal cleanse in the Ayurvedic sense: lighter food, herbal support, walking, and enough sleep to feel the difference. Ends with a personal protocol for the summer.",
+     "inc": [
+      "Three nights, shared or private",
+      "Individual naturopathic consultation",
+      "Seasonal cleanse meals",
+      "Take-home protocol"
+     ],
+     "p": "From $1,320",
+     "slot": "ah-ret-spring",
+     "ph": "Spring retreat — Townships"
+    }
+   ],
+   "pastTitle": "Past retreats",
+   "past": [
+    {
+     "n": "Autumn Grounding",
+     "when": "October 2026",
+     "where": "Charlevoix, QC",
+     "d": "Twelve participants, four days of Abhyanga, forest walks and evening breathwork as the season turned.",
+     "slot": "ah-ret-past1",
+     "ph": "Autumn retreat"
+    },
+    {
+     "n": "Summer Breath",
+     "when": "July 2026",
+     "where": "Lanaudière, QC",
+     "d": "A lighter, outdoor-facing weekend: morning practice by the water, bodywork in the afternoon.",
+     "slot": "ah-ret-past2",
+     "ph": "Summer retreat"
+    },
+    {
+     "n": "Winter Stillness I",
+     "when": "February 2026",
+     "where": "Laurentians, QC",
+     "d": "The first winter edition, and the reason it now runs every year.",
+     "slot": "ah-ret-past3",
+     "ph": "First winter retreat"
+    }
+   ],
+   "formTitle": "Ask about a retreat",
+   "formLede": "Tell me which retreat interests you and where you are starting from. I answer every inquiry personally, usually within two days.",
+   "formOpts": [
+    "Winter Stillness — February 2027",
+    "Spring Reset — May 2027",
+    "A future retreat / join the waitlist"
+   ],
+   "thanksTitle": "Thank you.",
+   "thanksText": "Your inquiry has been sent. I will write back personally within two business days."
+  },
+  "ev": {
+   "kicker": "Workshops & group events",
+   "title": "Smaller gatherings, in the clinic and around Montréal.",
+   "lede": "Evening workshops and short series for people who want to learn the practices rather than only receive them. Most run for eight to sixteen participants.",
+   "register": "Register",
+   "list": [
+    {
+     "mon": "Sep",
+     "day": "17",
+     "type": "Workshop",
+     "time": "18:30 – 20:30",
+     "n": "Self-Massage for Winter Bodies",
+     "d": "Abhyanga technique, oil selection by constitution, and a short daily routine you will actually keep. Oils included.",
+     "p": "$65",
+     "spots": "6 places left"
+    },
+    {
+     "mon": "Oct",
+     "day": "02",
+     "type": "Four-week series",
+     "time": "Thursdays, 19:00",
+     "n": "Nervous System Basics",
+     "d": "Four evenings on how stress physiology works and what genuinely shifts it — breath, rhythm, food, sleep, touch.",
+     "p": "$220",
+     "spots": "10 places"
+    },
+    {
+     "mon": "Oct",
+     "day": "25",
+     "type": "Workshop",
+     "time": "10:00 – 13:00",
+     "n": "Ayurvedic Autumn Kitchen",
+     "d": "Cooking for the shift into cold season: spice combinations, digestion, and three simple weekday meals. We eat together at the end.",
+     "p": "$85",
+     "spots": "12 places"
+    },
+    {
+     "mon": "Nov",
+     "day": "14",
+     "type": "Group session",
+     "time": "19:00 – 20:15",
+     "n": "Guided Deep Rest",
+     "d": "A group craniosacral and breathwork session. Bring a blanket; leave loose. Monthly through winter.",
+     "p": "$35",
+     "spots": "16 places"
+    },
+    {
+     "mon": "Dec",
+     "day": "05",
+     "type": "Talk",
+     "time": "18:00 – 19:30",
+     "n": "Sleep, Honestly",
+     "d": "What fifteen years of practice has taught me about why people cannot sleep, and the handful of things that reliably help.",
+     "p": "Free",
+     "spots": "RSVP required"
+    }
+   ],
+   "privTitle": "Private and corporate groups",
+   "privText": "Workshops can be adapted for teams, studios and private groups, in the clinic or at your space. Tell me the group and the time you have.",
+   "privBtn": "Inquire about a private group"
+  },
+  "lib": {
+   "kicker": "Digital Library",
+   "title": "Guides you can start using tonight.",
+   "lede": "Everything I would tell you in a consultation, written down and organised. Purchase, download immediately, keep it forever.",
+   "badges": [
+    "Instant download",
+    "PDF and EPUB",
+    "Free lifetime updates"
+   ],
+   "buy": "Buy Now"
+  },
+  "shop": {
+   "kicker": "Shop",
+   "title": "The clinic shelf, available to order.",
+   "lede": "Herbs, oils and tools I use in practice, plus digital bundles. Shipped within Canada or picked up at the clinic.",
+   "buy": "Buy Now"
+  },
+  "co": {
+   "total": "Total",
+   "card": "Card number",
+   "pay": "Pay",
+   "secure": "Secure checkout · This is a demo transaction",
+   "processing": "Processing payment…",
+   "doneTitle": "Payment complete",
+   "doneText": "Your download is ready and a copy has been sent to your email.",
+   "close": "Close"
+  },
+  "foot": {
+   "tag": "Holistic Care · Montréal",
+   "hours": "Tue – Sat, by appointment",
+   "explore": "Explore",
+   "connect": "Connect",
+   "nlTitle": "Newsletter",
+   "nlText": "Seasonal practices, new retreats and the occasional recipe. Once a month, never more.",
+   "nlBtn": "Join",
+   "nlThanks": "Thank you — you are on the list.",
+   "legal": "RMT receipts provided · Privacy policy"
+  },
+  "books": [
+   {
+    "fmt": "E-book · 84 pages",
+    "n": "The Winter Protocol",
+    "d": "A full Ayurvedic guide to the Montréal cold season: food, oils, routine and the herbs that hold you through February.",
+    "p": "$24",
+    "slot": "ah-book-winter",
+    "ph": "Cover — The Winter Protocol"
+   },
+   {
+    "fmt": "Guide · 42 pages",
+    "n": "Sleep, Rebuilt",
+    "d": "The staged plan I give clients who have not slept properly in years. Evening rhythm, herbs, and what to stop doing.",
+    "p": "$18",
+    "slot": "ah-book-sleep",
+    "ph": "Cover — Sleep, Rebuilt"
+   },
+   {
+    "fmt": "E-book · 96 pages",
+    "n": "Digestion First",
+    "d": "Why most complaints begin in the gut, and a twelve-week path back to steady digestion without elimination diets.",
+    "p": "$26",
+    "slot": "ah-book-digest",
+    "ph": "Cover — Digestion First"
+   },
+   {
+    "fmt": "Guide · 36 pages",
+    "n": "Self-Massage at Home",
+    "d": "Abhyanga, jaw and neck release, and a ten-minute daily sequence. Illustrated, step by step.",
+    "p": "$16",
+    "slot": "ah-book-massage",
+    "ph": "Cover — Self-Massage at Home"
+   },
+   {
+    "fmt": "Workbook · 58 pages",
+    "n": "The Nervous System Reset",
+    "d": "Six weeks of daily practices for burnout recovery, with tracking pages and weekly reflections.",
+    "p": "$22",
+    "slot": "ah-book-nervous",
+    "ph": "Cover — Nervous System Reset"
+   },
+   {
+    "fmt": "Bundle · 4 titles",
+    "n": "The Complete Library",
+    "d": "All four guides plus the workbook, and every future edition, at a single price.",
+    "p": "$68",
+    "slot": "ah-book-bundle",
+    "ph": "Cover — Complete Library"
+   }
+  ],
+  "products": [
+   {
+    "cat": "Herbal",
+    "n": "Calm Evening Tea",
+    "d": "Chamomile, tulsi, rose and licorice. 100 g loose leaf, small batch.",
+    "p": "$22",
+    "slot": "ah-shop-tea",
+    "ph": "Calm Evening Tea"
+   },
+   {
+    "cat": "Ayurvedic",
+    "n": "Warming Abhyanga Oil",
+    "d": "Sesame base infused with ashwagandha and ginger. For vata seasons. 200 ml.",
+    "p": "$34",
+    "slot": "ah-shop-oil",
+    "ph": "Abhyanga oil"
+   },
+   {
+    "cat": "Ayurvedic",
+    "n": "Cooling Coconut Oil",
+    "d": "Coconut with brahmi and sandalwood, for heat and irritation. 200 ml.",
+    "p": "$32",
+    "slot": "ah-shop-cool",
+    "ph": "Cooling oil"
+   },
+   {
+    "cat": "Tools",
+    "n": "Copper Tongue Scraper",
+    "d": "The two-second morning practice I recommend to everyone.",
+    "p": "$14",
+    "slot": "ah-shop-scraper",
+    "ph": "Tongue scraper"
+   },
+   {
+    "cat": "Digital",
+    "n": "Winter Protocol Bundle",
+    "d": "The Winter Protocol e-book with the warming oil and digestive tea.",
+    "p": "$72",
+    "slot": "ah-shop-bundle",
+    "ph": "Winter bundle"
+   },
+   {
+    "cat": "Gift",
+    "n": "Session Gift Card",
+    "d": "A 75-minute treatment of their choosing, valid for one year.",
+    "p": "$130",
+    "slot": "ah-shop-gift",
+    "ph": "Gift card"
+   }
+  ]
+ },
+ "fr": {
+  "book": "Réserver une séance",
+  "nav": {
+   "massage": "Massothérapie",
+   "holistic": "Naturopathie & Ayurveda",
+   "retreats": "Retraites",
+   "events": "Événements",
+   "library": "Bibliothèque",
+   "shop": "Boutique"
+  },
+  "form": {
+   "name": "Votre nom",
+   "email": "Adresse courriel",
+   "msg": "Qu’espérez-vous trouver ?",
+   "send": "Envoyer la demande"
+  },
+  "home": {
+   "kicker": "Plateau-Mont-Royal, Montréal",
+   "t1": "Revenir",
+   "t2": "habiter son corps.",
+   "lede": "Je suis Viktoria. Depuis plus de quinze ans, des gens arrivent chez moi épuisés, sur leurs gardes, un peu à côté d’eux-mêmes — et repartent en respirant autrement. La massothérapie, la naturopathie, la thérapie craniosacrale et l’Ayurveda sont mes outils. La restauration profonde est le travail.",
+   "cta2": "Découvrir la pratique",
+   "stats": [
+    {
+     "n": "15+",
+     "l": "Années de pratique"
+    },
+    {
+     "n": "4",
+     "l": "Approches thérapeutiques"
+    },
+    {
+     "n": "RMT",
+     "l": "Reçus d’assurance"
+    }
+   ],
+   "philKicker": "Ma philosophie",
+   "philTitle": "Le corps guérit lorsqu’il se sent enfin en sécurité.",
+   "phil1": "La plupart des gens arrivent en portant quelque chose : une épaule qui ne se relâche jamais, un sommeil qui ne s’approfondit plus, une digestion difficile depuis des années. Je ne traite pas ces éléments séparément. C’est généralement un seul système nerveux qui demande un autre rythme.",
+   "phil2": "Nous commençons donc lentement. J’écoute les tissus, le souffle, le pouls, et le récit que vous faites de vos journées. Ensuite nous choisissons la voie : le travail manuel pour relâcher, les plantes et l’alimentation pour reconstruire, le craniosacral pour ce qui demande de l’immobilité plutôt que de la pression.",
+   "philQuote": "Je ne suis pas là pour vous réparer. Je suis là pour offrir à votre corps les conditions qu’il attend depuis longtemps.",
+   "credTitle": "Formations et titres",
+   "creds": [
+    "Massothérapeute agréée (RMT)",
+    "Naturopathe",
+    "Thérapeute craniosacrale",
+    "Praticienne en Ayurveda",
+    "Plus de 15 ans de pratique clinique"
+   ],
+   "svcTitle": "Par où commencer",
+   "svcLede": "Trois portes vers le même travail. La plupart des clients passent de l’une à l’autre au fil du temps, et je vous dirai honnêtement laquelle vient en premier.",
+   "svcs": [
+    {
+     "t": "Massothérapie",
+     "d": "Séances thérapeutiques, tissus profonds, prénatales et craniosacrales. Reçus RMT pour vos assurances.",
+     "cta": "Voir séances et tarifs",
+     "href": "#massage",
+     "slot": "ah-svc-massage",
+     "ph": "Séance de massage"
+    },
+    {
+     "t": "Naturopathie & Ayurveda",
+     "d": "Consultations en profondeur, protocoles de plantes, conseils ayurvédiques saisonniers et nutrition.",
+     "cta": "Voir les consultations",
+     "href": "#holistic",
+     "slot": "ah-svc-nat",
+     "ph": "Plantes et consultation"
+    },
+    {
+     "t": "Retraites & événements",
+     "d": "Immersions en petits groupes et ateliers, pour aller plus loin qu’une heure sur la table.",
+     "cta": "Voir la programmation",
+     "href": "#retreats",
+     "slot": "ah-svc-ret",
+     "ph": "Lieu de retraite"
+    }
+   ],
+   "tTitle": "Témoignages",
+   "tms": [
+    {
+     "q": "Je suis venue pour le bas du dos et je suis repartie avec ma première vraie nuit de sommeil en plusieurs mois. Viktoria travaille avec la personne entière, pas avec le symptôme.",
+     "a": "Marie-Claude L. · Montréal"
+    },
+    {
+     "q": "Elle a fait le lien entre ma digestion et mon stress en une seule consultation. Le protocole de plantes a changé mon hiver.",
+     "a": "Daniel R. · Mile End"
+    },
+    {
+     "q": "Les séances craniosacrales ont fait quelque chose que je n’arrive pas à expliquer. Mon corps a enfin arrêté de se contracter.",
+     "a": "Sophie B. · Outremont"
+    }
+   ],
+   "ctaTitle": "Prêt à commencer ?",
+   "ctaText": "Les séances se réservent en ligne et sont confirmées par courriel. Si vous hésitez, réservez une première consultation et nous choisirons ensemble."
+  },
+  "mas": {
+   "kicker": "Massothérapie agréée",
+   "title": "Un travail manuel pour un corps qui retient depuis trop longtemps.",
+   "lede": "Chaque séance débute par une courte évaluation : où ça fait mal, comment vous dormez, ce que vos journées exigent de vous. La pression, le rythme et la technique découlent de là — jamais d’un menu.",
+   "typesTitle": "Types de massage offerts",
+   "types": [
+    {
+     "n": "Suédois thérapeutique",
+     "dur": "60 / 75 / 90 min",
+     "d": "Travail fluide du corps entier, à pression modérée. Le meilleur point de départ si vous découvrez le massage ou si votre corps a simplement besoin de ralentir.",
+     "b": [
+      "Diminue le cortisol et le rythme cardiaque",
+      "Améliore la circulation et le drainage lymphatique",
+      "Rétablit la qualité du sommeil"
+     ]
+    },
+    {
+     "n": "Tissus profonds",
+     "dur": "60 / 75 / 90 min",
+     "d": "Pression lente et précise dans les tensions chroniques : nuque, épaules, hanches, bas du dos. Ferme, mais toujours dans ce que vos tissus acceptent.",
+     "b": [
+      "Libère les adhérences installées",
+      "Rétablit l’amplitude de mouvement",
+      "Soulage les tensions posturales"
+     ]
+    },
+    {
+     "n": "Thérapie craniosacrale",
+     "dur": "60 / 75 min",
+     "d": "Contact très léger au crâne, à la colonne et au sacrum, en suivant le rythme du liquide autour du système nerveux. Il semble ne rien se passer ; il se passe beaucoup.",
+     "b": [
+      "Apaise un système nerveux en alerte",
+      "Soulage maux de tête et tensions à la mâchoire",
+      "Soutient la récupération après commotion ou épuisement"
+     ]
+    },
+    {
+     "n": "Abhyanga ayurvédique",
+     "dur": "75 / 90 min",
+     "d": "Huile végétale chaude appliquée en longs mouvements rythmés, choisis selon votre constitution. Profondément ancrant, surtout l’hiver à Montréal.",
+     "b": [
+      "Nourrit les tissus secs et épuisés",
+      "Apaise l’anxiété et l’agitation",
+      "Améliore la digestion et le sommeil"
+     ]
+    },
+    {
+     "n": "Massage prénatal",
+     "dur": "60 / 75 min",
+     "d": "Travail en décubitus latéral, entièrement soutenu, pour chaque trimestre : bas du dos, hanches et enflure des jambes.",
+     "b": [
+      "Soulage la charge lombaire et pelvienne",
+      "Réduit la rétention d’eau",
+      "Crée un espace pour se reposer"
+     ]
+    }
+   ],
+   "priceTitle": "Séances et tarifs",
+   "thSvc": "Séance",
+   "thDur": "Durée",
+   "thPrice": "Tarif",
+   "prices": [
+    {
+     "n": "Thérapeutique / tissus profonds",
+     "d": "60 min",
+     "p": "110 $"
+    },
+    {
+     "n": "Thérapeutique / tissus profonds",
+     "d": "75 min",
+     "p": "130 $"
+    },
+    {
+     "n": "Thérapeutique / tissus profonds",
+     "d": "90 min",
+     "p": "155 $"
+    },
+    {
+     "n": "Thérapie craniosacrale",
+     "d": "60 min",
+     "p": "115 $"
+    },
+    {
+     "n": "Abhyanga ayurvédique",
+     "d": "75 min",
+     "p": "145 $"
+    },
+    {
+     "n": "Massage prénatal",
+     "d": "60 min",
+     "p": "110 $"
+    }
+   ],
+   "priceNote": "Taxes incluses. Annulation 24 h à l’avance. Forfaits de cinq séances offerts sur demande.",
+   "insKicker": "RMT",
+   "insTitle": "Reçus d’assurance fournis",
+   "insText": "À titre de massothérapeute agréée, je remets des reçus acceptés par la plupart des régimes d’assurance collective au Québec.",
+   "insList": [
+    "Reçu envoyé par courriel après chaque séance",
+    "Accepté par la plupart des assureurs privés",
+    "Aucune facturation directe requise"
+   ],
+   "bookTitle": "Réservez votre séance",
+   "bookText": "La réservation en ligne affiche mes disponibilités réelles. Choisissez un moment, indiquez brièvement ce qui vous amène, et vous recevrez une confirmation par courriel.",
+   "bookBtn": "Ouvrir le calendrier",
+   "bookNote": "Soirs et samedis disponibles"
+  },
+  "nat": {
+   "kicker": "Naturopathie & Ayurveda",
+   "title": "Des soins qui cherchent la cause, pas seulement le symptôme.",
+   "lede": "La naturopathie me donne les outils d’évaluation ; l’Ayurveda, un cadre pour la constitution et les saisons. Ensemble, elles permettent de bâtir quelque chose de vivable : alimentation, plantes, rythme, repos.",
+   "brings": "Ce que cela vous apporte",
+   "svcs": [
+    {
+     "n": "Consultation naturopathique",
+     "d": "Un premier rendez-vous long : antécédents, digestion, sommeil, cycle, stress et énergie. Nous dégageons les schémas, puis construisons un protocole par étapes.",
+     "b": [
+      "Une vision claire de ce qui alimente vos symptômes",
+      "Un plan progressif : alimentation, suppléments, habitudes",
+      "Des ajustements de suivi selon vos réactions"
+     ]
+    },
+    {
+     "n": "Évaluation ayurvédique",
+     "d": "Lecture du pouls et de la constitution pour situer votre équilibre doshique et son déséquilibre. Suivent des recommandations saisonnières pour manger, dormir et bouger.",
+     "b": [
+      "Votre profil constitutionnel en mots simples",
+      "Des routines saisonnières adaptées à Montréal",
+      "Des pratiques qui stabilisent humeur et digestion"
+     ]
+    },
+    {
+     "n": "Protocoles de plantes et nutrition",
+     "d": "Formules ciblées et stratégie alimentaire pour la digestion, l’équilibre hormonal, l’immunité, le sommeil et l’épuisement. Préparées en petites quantités, ajustées à chaque visite.",
+     "b": [
+      "Des formules adaptées à vous, pas à une catégorie",
+      "Des conseils alimentaires réalistes, sans exclusion inutile",
+      "Un dosage et une durée clairs"
+     ]
+    },
+    {
+     "n": "Récupération du système nerveux",
+     "d": "Pour l’épuisement, le stress chronique et les convalescences longues. Combine le soutien naturopathique, les séances craniosacrales et le rythme quotidien ayurvédique.",
+     "b": [
+      "Un sommeil plus profond et continu",
+      "Une énergie plus stable dans la journée",
+      "Une meilleure tolérance au stress"
+     ]
+    }
+   ],
+   "procTitle": "Le déroulement d’une consultation",
+   "procLede": "Quatre étapes, généralement sur trois mois. Vous quittez chaque rendez-vous en sachant exactement quoi faire ensuite.",
+   "steps": [
+    {
+     "n": "Un",
+     "t": "Questionnaire",
+     "d": "Un questionnaire détaillé avant la rencontre, pour consacrer notre temps à vous plutôt qu’à la paperasse."
+    },
+    {
+     "n": "Deux",
+     "t": "Évaluation",
+     "d": "75 minutes : antécédents, lecture du pouls et de la constitution, et revue des analyses le cas échéant."
+    },
+    {
+     "n": "Trois",
+     "t": "Protocole",
+     "d": "Un plan écrit dans la semaine — alimentation, plantes, suppléments, routine — échelonné sur les semaines à venir."
+    },
+    {
+     "n": "Quatre",
+     "t": "Suivi",
+     "d": "Deux suivis, à quatre et huit semaines, pour ajuster les doses et affiner ce qui fonctionne."
+    }
+   ],
+   "licTitle": "Titres et certifications",
+   "lics": [
+    {
+     "n": "Massothérapeute agréée (RMT)",
+     "o": "Fédération québécoise des massothérapeutes",
+     "y": "Actif"
+    },
+    {
+     "n": "Diplôme en naturopathie",
+     "o": "Collège de naturopathie accrédité",
+     "y": "Certifiée"
+    },
+    {
+     "n": "Thérapie craniosacrale, niveaux I à IV",
+     "o": "Formation méthode Upledger",
+     "y": "Certifiée"
+    },
+    {
+     "n": "Praticienne en Ayurveda",
+     "o": "Formation en institut ayurvédique",
+     "y": "Certifiée"
+    },
+    {
+     "n": "Formation continue",
+     "o": "Perfectionnement clinique annuel depuis 2010",
+     "y": "En cours"
+    }
+   ],
+   "prodTitle": "Produits naturels complémentaires",
+   "prodLede": "Une petite sélection : les plantes et les huiles que j’utilise réellement en clinique. Disponibles lors de votre rendez-vous ou sur demande.",
+   "prods": [
+    {
+     "n": "Mélanges de tisanes",
+     "d": "Mélanges digestifs, apaisants et immunitaires, préparés en petites quantités.",
+     "slot": "ah-prod-tea",
+     "ph": "Tisanes"
+    },
+    {
+     "n": "Huiles corporelles ayurvédiques",
+     "d": "Huiles réchauffantes ou rafraîchissantes pour l’auto-massage quotidien, selon la constitution.",
+     "slot": "ah-prod-oil",
+     "ph": "Huiles corporelles"
+    },
+    {
+     "n": "Suppléments professionnels",
+     "d": "Formules de qualité professionnelle, remises uniquement avec une consultation.",
+     "slot": "ah-prod-supp",
+     "ph": "Suppléments"
+    }
+   ]
+  },
+  "ret": {
+   "kicker": "Retraites",
+   "title": "Du temps à l’écart, assez longtemps pour que quelque chose change.",
+   "lede": "Une heure sur la table peut interrompre un schéma. Trois jours peuvent le réécrire. Les retraites sont petites — de huit à douze personnes — et construites autour du repos plutôt que des activités.",
+   "upTitle": "Retraites à venir",
+   "inquire": "S’informer",
+   "up": [
+    {
+     "tag": "Inscriptions ouvertes",
+     "spots": "4 places sur 12 restantes",
+     "n": "Silence d’hiver",
+     "when": "13 au 16 février 2027",
+     "where": "Laurentides, QC",
+     "d": "Quatre jours au cœur de l’hiver : travail corporel quotidien, repas ayurvédiques pensés pour la saison froide, séances craniosacrales et longs après-midis sans horaire. Pour ceux qui n’ont plus de réserve.",
+     "inc": [
+      "Trois nuits, chambre privée",
+      "Deux traitements individuels",
+      "Tous les repas, cuisine ayurvédique",
+      "Respiration et repos guidé chaque jour"
+     ],
+     "p": "À partir de 1 480 $",
+     "slot": "ah-ret-winter",
+     "ph": "Retraite d’hiver — Laurentides"
+    },
+    {
+     "tag": "Réservation anticipée",
+     "spots": "10 places",
+     "n": "Renouveau du printemps",
+     "when": "8 au 11 mai 2027",
+     "where": "Estrie, QC",
+     "d": "Une cure saisonnière au sens ayurvédique : alimentation plus légère, soutien par les plantes, marche, et assez de sommeil pour sentir la différence. Se termine par un protocole personnel pour l’été.",
+     "inc": [
+      "Trois nuits, chambre partagée ou privée",
+      "Consultation naturopathique individuelle",
+      "Repas de cure saisonnière",
+      "Protocole à emporter"
+     ],
+     "p": "À partir de 1 320 $",
+     "slot": "ah-ret-spring",
+     "ph": "Retraite du printemps — Estrie"
+    }
+   ],
+   "pastTitle": "Retraites passées",
+   "past": [
+    {
+     "n": "Ancrage d’automne",
+     "when": "Octobre 2026",
+     "where": "Charlevoix, QC",
+     "d": "Douze participants, quatre jours d’Abhyanga, de marches en forêt et de respiration en soirée, au tournant de la saison.",
+     "slot": "ah-ret-past1",
+     "ph": "Retraite d’automne"
+    },
+    {
+     "n": "Souffle d’été",
+     "when": "Juillet 2026",
+     "where": "Lanaudière, QC",
+     "d": "Un week-end plus léger, tourné vers l’extérieur : pratique du matin au bord de l’eau, travail corporel l’après-midi.",
+     "slot": "ah-ret-past2",
+     "ph": "Retraite d’été"
+    },
+    {
+     "n": "Silence d’hiver I",
+     "when": "Février 2026",
+     "where": "Laurentides, QC",
+     "d": "La première édition hivernale, et la raison pour laquelle elle revient chaque année.",
+     "slot": "ah-ret-past3",
+     "ph": "Première retraite d’hiver"
+    }
+   ],
+   "formTitle": "Renseignez-vous sur une retraite",
+   "formLede": "Dites-moi quelle retraite vous intéresse et d’où vous partez. Je réponds personnellement à chaque demande, généralement en deux jours.",
+   "formOpts": [
+    "Silence d’hiver — février 2027",
+    "Renouveau du printemps — mai 2027",
+    "Une retraite future / liste d’attente"
+   ],
+   "thanksTitle": "Merci.",
+   "thanksText": "Votre demande a été envoyée. Je vous répondrai personnellement dans les deux jours ouvrables."
+  },
+  "ev": {
+   "kicker": "Ateliers et événements de groupe",
+   "title": "Des rassemblements plus intimes, en clinique et à Montréal.",
+   "lede": "Des ateliers en soirée et de courtes séries, pour celles et ceux qui veulent apprendre les pratiques plutôt que seulement les recevoir. La plupart accueillent de huit à seize participants.",
+   "register": "S’inscrire",
+   "list": [
+    {
+     "mon": "Sep",
+     "day": "17",
+     "type": "Atelier",
+     "time": "18 h 30 – 20 h 30",
+     "n": "L’auto-massage pour les corps d’hiver",
+     "d": "Technique d’Abhyanga, choix des huiles selon la constitution et une courte routine quotidienne que vous garderez vraiment. Huiles incluses.",
+     "p": "65 $",
+     "spots": "6 places restantes"
+    },
+    {
+     "mon": "Oct",
+     "day": "02",
+     "type": "Série de quatre semaines",
+     "time": "Les jeudis, 19 h",
+     "n": "Système nerveux : les bases",
+     "d": "Quatre soirées sur la physiologie du stress et ce qui la transforme réellement : souffle, rythme, alimentation, sommeil, toucher.",
+     "p": "220 $",
+     "spots": "10 places"
+    },
+    {
+     "mon": "Oct",
+     "day": "25",
+     "type": "Atelier",
+     "time": "10 h – 13 h",
+     "n": "Cuisine ayurvédique d’automne",
+     "d": "Cuisiner pour l’entrée dans la saison froide : combinaisons d’épices, digestion et trois repas simples de semaine. Nous mangeons ensemble à la fin.",
+     "p": "85 $",
+     "spots": "12 places"
+    },
+    {
+     "mon": "Nov",
+     "day": "14",
+     "type": "Séance de groupe",
+     "time": "19 h – 20 h 15",
+     "n": "Repos profond guidé",
+     "d": "Une séance de groupe en craniosacral et respiration. Apportez une couverture ; repartez détendu. Chaque mois pendant l’hiver.",
+     "p": "35 $",
+     "spots": "16 places"
+    },
+    {
+     "mon": "Déc",
+     "day": "05",
+     "type": "Causerie",
+     "time": "18 h – 19 h 30",
+     "n": "Le sommeil, honnêtement",
+     "d": "Ce que quinze ans de pratique m’ont appris sur les raisons de l’insomnie, et le petit nombre de choses qui aident vraiment.",
+     "p": "Gratuit",
+     "spots": "RSVP requis"
+    }
+   ],
+   "privTitle": "Groupes privés et entreprises",
+   "privText": "Les ateliers peuvent être adaptés aux équipes, aux studios et aux groupes privés, en clinique ou chez vous. Dites-moi la taille du groupe et le temps disponible.",
+   "privBtn": "Informations pour un groupe privé"
+  },
+  "lib": {
+   "kicker": "Bibliothèque numérique",
+   "title": "Des guides que vous pouvez utiliser dès ce soir.",
+   "lede": "Tout ce que je vous dirais en consultation, écrit et organisé. Achetez, téléchargez immédiatement, gardez-le pour toujours.",
+   "badges": [
+    "Téléchargement immédiat",
+    "PDF et EPUB",
+    "Mises à jour à vie"
+   ],
+   "buy": "Acheter"
+  },
+  "shop": {
+   "kicker": "Boutique",
+   "title": "La tablette de la clinique, offerte en ligne.",
+   "lede": "Les plantes, les huiles et les outils que j’utilise en pratique, ainsi que des ensembles numériques. Livraison au Canada ou cueillette à la clinique.",
+   "buy": "Acheter"
+  },
+  "co": {
+   "total": "Total",
+   "card": "Numéro de carte",
+   "pay": "Payer",
+   "secure": "Paiement sécurisé · Transaction de démonstration",
+   "processing": "Traitement du paiement…",
+   "doneTitle": "Paiement complété",
+   "doneText": "Votre téléchargement est prêt et une copie a été envoyée par courriel.",
+   "close": "Fermer"
+  },
+  "foot": {
+   "tag": "Soins holistiques · Montréal",
+   "hours": "Mardi au samedi, sur rendez-vous",
+   "explore": "Explorer",
+   "connect": "Nous joindre",
+   "nlTitle": "Infolettre",
+   "nlText": "Pratiques saisonnières, nouvelles retraites et une recette à l’occasion. Une fois par mois, jamais plus.",
+   "nlBtn": "S’abonner",
+   "nlThanks": "Merci — vous êtes inscrit.",
+   "legal": "Reçus RMT fournis · Politique de confidentialité"
+  },
+  "books": [
+   {
+    "fmt": "Livre numérique · 84 pages",
+    "n": "Le protocole d’hiver",
+    "d": "Un guide ayurvédique complet pour la saison froide montréalaise : alimentation, huiles, routine et les plantes qui vous portent jusqu’en février.",
+    "p": "24 $",
+    "slot": "ah-book-winter",
+    "ph": "Couverture — Protocole d’hiver"
+   },
+   {
+    "fmt": "Guide · 42 pages",
+    "n": "Reconstruire le sommeil",
+    "d": "Le plan progressif que je remets aux clients qui ne dorment plus vraiment depuis des années. Rythme du soir, plantes, et ce qu’il faut cesser.",
+    "p": "18 $",
+    "slot": "ah-book-sleep",
+    "ph": "Couverture — Sommeil"
+   },
+   {
+    "fmt": "Livre numérique · 96 pages",
+    "n": "La digestion d’abord",
+    "d": "Pourquoi la plupart des troubles commencent dans l’intestin, et un parcours de douze semaines vers une digestion stable, sans régime d’exclusion.",
+    "p": "26 $",
+    "slot": "ah-book-digest",
+    "ph": "Couverture — Digestion"
+   },
+   {
+    "fmt": "Guide · 36 pages",
+    "n": "L’auto-massage à la maison",
+    "d": "Abhyanga, relâchement de la mâchoire et de la nuque, et une séquence quotidienne de dix minutes. Illustré, étape par étape.",
+    "p": "16 $",
+    "slot": "ah-book-massage",
+    "ph": "Couverture — Auto-massage"
+   },
+   {
+    "fmt": "Cahier · 58 pages",
+    "n": "Réinitialiser le système nerveux",
+    "d": "Six semaines de pratiques quotidiennes pour sortir de l’épuisement, avec pages de suivi et réflexions hebdomadaires.",
+    "p": "22 $",
+    "slot": "ah-book-nervous",
+    "ph": "Couverture — Système nerveux"
+   },
+   {
+    "fmt": "Ensemble · 4 titres",
+    "n": "La bibliothèque complète",
+    "d": "Les quatre guides et le cahier, ainsi que toutes les éditions futures, à un seul prix.",
+    "p": "68 $",
+    "slot": "ah-book-bundle",
+    "ph": "Couverture — Bibliothèque complète"
+   }
+  ],
+  "products": [
+   {
+    "cat": "Plantes",
+    "n": "Tisane du soir",
+    "d": "Camomille, tulsi, rose et réglisse. 100 g en feuilles, petite production.",
+    "p": "22 $",
+    "slot": "ah-shop-tea",
+    "ph": "Tisane du soir"
+   },
+   {
+    "cat": "Ayurveda",
+    "n": "Huile d’Abhyanga réchauffante",
+    "d": "Base de sésame infusée d’ashwagandha et de gingembre. Pour les saisons vata. 200 ml.",
+    "p": "34 $",
+    "slot": "ah-shop-oil",
+    "ph": "Huile réchauffante"
+   },
+   {
+    "cat": "Ayurveda",
+    "n": "Huile de coco rafraîchissante",
+    "d": "Coco, brahmi et santal, pour la chaleur et les irritations. 200 ml.",
+    "p": "32 $",
+    "slot": "ah-shop-cool",
+    "ph": "Huile rafraîchissante"
+   },
+   {
+    "cat": "Accessoires",
+    "n": "Gratte-langue en cuivre",
+    "d": "La pratique matinale de deux secondes que je recommande à tout le monde.",
+    "p": "14 $",
+    "slot": "ah-shop-scraper",
+    "ph": "Gratte-langue"
+   },
+   {
+    "cat": "Numérique",
+    "n": "Ensemble Protocole d’hiver",
+    "d": "Le livre Protocole d’hiver avec l’huile réchauffante et la tisane digestive.",
+    "p": "72 $",
+    "slot": "ah-shop-bundle",
+    "ph": "Ensemble d’hiver"
+   },
+   {
+    "cat": "Cadeau",
+    "n": "Carte-cadeau séance",
+    "d": "Un traitement de 75 minutes au choix, valable un an.",
+    "p": "130 $",
+    "slot": "ah-shop-gift",
+    "ph": "Carte-cadeau"
+   }
+  ]
+ }
+}

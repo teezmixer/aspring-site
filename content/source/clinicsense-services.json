@@ -1,0 +1,77 @@
+{
+  "_source": "https://victorianosenko.clinicsense.com/book/ (New client path), read 2026-10-14. Descriptions are Victoria's own text, verbatim. Prices in CAD, taxes not shown.",
+  "services": [
+    {
+      "group": "Diet / Nutrition",
+      "name": "Personalised Ayurvedic Menu",
+      "options": [["60 min", 100]],
+      "description": "This unique online consultation provides you with a fully customized Ayurvedic nutrition and lifestyle plan based on your Dosha (body type). 💡 What’s included: ✔️ Tailored food menu list to balance your Dosha ✔️ Morning & evening rituals for vitality ✔️ Detox suggestions (easy & natural) 🕒 Format: Online This is not a diet. This is your body’s natural rhythm — finally understood."
+    },
+    {
+      "group": "Massage therapy",
+      "name": "Functional Health Massage",
+      "options": [["60 min", 100], ["75 min", 120], ["90 min", 140], ["120 min", 180]],
+      "description": "Welcome to your full-body massage treatment! I am Victoria, and I am dedicated to ensuring that your experience is both relaxing and rejuvenating. Here’s what you can expect during your visit: I will use various techniques suited to your needs, including Swedish, deep tissue, aromatherapy, maderotherapy or other specialized methods during one session . Aftercare and Recommendations: After the massage, we will discuss how you feel and provide recommendations for aftercare. This may include stretches, hydration tips, or suggestions for follow-up treatments to enhance the benefits of your session. Booking Future Appointments: I can assist you in scheduling future appointments to maintain and improve your wellness. For effective results for the Full Body Therapy, at least ten sessions are advised with 2 to 3 days in between for the first 6 to 8 sessions"
+    },
+    {
+      "group": "Massage therapy",
+      "name": "Deep tissue massage",
+      "options": [["75 min", 120], ["90 min", 150]],
+      "description": "Experience profound relief and rejuvenation with our Deep Tissue Massage. Designed to target the deeper layers of muscles and connective tissue, this therapeutic treatment is perfect for alleviating chronic aches and pains, whether in the neck, shoulders, upper back, or legs. I use slow, deliberate strokes and firm pressure to reach the inner muscle layers, breaking up scar tissue and releasing deeply held tension. Ideal for those dealing with muscle stiffness, sports injuries, or long-term discomfort, our Deep Tissue Massage not only alleviates pain but also enhances circulation and promotes overall wellness."
+    },
+    {
+      "group": "Massage therapy",
+      "name": "First Visit Health Massage",
+      "options": [["60 min", 79], ["75 min", 95], ["90 min", 120]],
+      "description": "Welcome to your first massage treatment! I am Victoria, and I am dedicated to ensuring that your experience is both relaxing and rejuvenating. Here’s what you can expect during your initial visit: Short personal consultation: Your session will begin with a short personal consultation. I will take 5 min to discuss your health history, specific concerns, and any particular areas of discomfort or tension. This helps me tailor the treatment to your individual needs. Massage Session itself : I will use various techniques suited to your needs, including Swedish, deep tissue, aromatherapy, or other specialized methods. Aftercare and Recommendations: After the massage, we will discuss how you feel and provide recommendations for aftercare. This may include stretches, hydration tips, or suggestions for follow-up treatments to enhance the benefits of your session. Booking Future Appointments: I can assist you in scheduling future appointments to maintain and improve your wellness. Usually, I advise you to visit massage treatment 2 times per month to support your overall health goals. Should you have any questions or need further assistance, please do not hesitate to ask. Your comfort and satisfaction are my top priorities."
+    },
+    {
+      "group": "Massage therapy",
+      "name": "European Sculpting Facial Massage",
+      "options": [["60 min", 100]],
+      "description": "A European sculpting facial massage focusing on deep muscle relaxation, circulation, and natural lifting techniques. Ideal for reducing facial tension, improving skin tone, and restoring a youthful, relaxed appearance without invasive methods."
+    },
+    {
+      "group": "Massage therapy",
+      "name": "Reiki Healing Session",
+      "options": [["60 min", 100]],
+      "description": "A gentle energy therapy to promote relaxation, balance, and healing. Restore harmony to your body, mind, and spirit as blockages are released, enhancing your overall well-being."
+    },
+    {
+      "group": "Massage therapy",
+      "name": "Anti-Cortisol Massage",
+      "options": [["60 min", 100]],
+      "description": "Did you know that 9 out of 10 adults live under constant stress? Stress means cortisol, often called the “silent killer.” High cortisol affects sleep, digestion, hormones, energy, and even speeds up aging. Massage is scientifically proven to lower cortisol levels by up to 30%. Combined with Ayurvedic rituals, it’s one of the most effective natural ways to reset your nervous system. What’s Included in this Session ✔ Moderate-pressure Swedish & myofascial massage – focusing on shoulders, back, neck, and hips ✔ Diaphragm release + guided breathing – activate the vagus nerve and calm your system ✔ Scalp & foot ritual – finish with deep relaxation for better sleep ✔ Aromatherapy oils (lavender & bergamot) – enhance emotional and physiological calm ✔ Ayurvedic tea ritual after session – Tulsi and herbal blends proven to lower cortisol naturally Benefits You’ll Feel ✨ Stress hormone (cortisol) reduction up to 30% ✨ Lower blood pressure and calmer heart rate ✨ Improved sleep quality and digestion ✨ More energy, clarity, and emotional balance ✨ Long-term resilience with regular sessions (every 2–4 weeks) How to Prepare Before: hydrate, eat light, avoid alcohol/caffeine, arrive 5–10 minutes early. After: enjoy your Ayurvedic tea, drink warm water, rest, and avoid intense workouts for 12–24 hours."
+    },
+    {
+      "group": "Massage therapy",
+      "name": "Professional Neck Osteochondrosis Therapy session",
+      "options": [["60 min", 100]],
+      "description": "If you’re struggling with chronic neck pain, stiffness, headaches, or numbness, it’s time for real, targeted healing. We offer Focused Neck Osteochondrosis Therapy — a deep, precise treatment crafted to eliminate the true causes of your discomfort. Our certified specialist Andrey Aspring uses proven manual techniques to break down salt and calcium deposits, release compressed nerves, restore blood flow, and relieve chronic tension. Each powerful 60-minute session is tailored to your condition, delivering not just temporary comfort but lasting results. Most clients experience visible improvement within just a few sessions. -This is not a general massage — this is professional therapy for true recovery."
+    },
+    {
+      "group": "Additional services",
+      "name": "Naturopathy",
+      "options": [["60 min", 100]],
+      "description": "Experience holistic healing through naturopathy, blending Ayurveda, yoga therapy, and personalized nutrition. Our approach addresses root causes, using natural remedies and therapeutic practices to restore balance and vitality. Reconnect with your body’s innate healing potential."
+    },
+    {
+      "group": "Additional services",
+      "name": "CranioSacral therapy",
+      "options": [["60 min", 100]],
+      "description": "Discover the transformative power of CranioSacral Therapy, a gentle, non-invasive treatment that focuses on enhancing the body's natural healing processes. CranioSacral Therapy (CST) was developed by Dr. John E. Upledger, an osteopathic physician. Dr. Upledger's work in the 1970s and 1980s was pivotal in refining and popularizing CST. He discovered and explored the craniosacral system, which involves the membranes and cerebrospinal fluid surrounding the brain and spinal cord. His research and clinical observations led to the development of techniques to assess and treat restrictions in this system, which he found could help alleviate a wide range of health issues. This holistic approach aims to relieve pain and tension, improve overall health, and promote deep relaxation by addressing imbalances in the craniosacral system, which includes the membranes and fluids surrounding the brain and spinal cord. Benefits of CranioSacral Therapy: - Relieves chronic pain and tension - Reduces stress and promotes relaxation - Enhances overall health and well-being - Improves mobility and flexibility - Supports emotional balance and mental clarity What to Expect During a Session: - A calm, supportive environment - Gentle touch techniques to assess and release restrictions - Personalized care tailored to your unique needs - Deep relaxation and a sense of profound well-being Experience the subtle yet powerful benefits of CranioSacral Therapy and embark on a journey toward more excellent health and harmony. Book your session today and let your body’s innate healing potential flourish!"
+    },
+    {
+      "group": "Additional services",
+      "name": "Monsalada massage",
+      "options": [["120 min", 200]],
+      "description": "Experience Monsalada, a revolutionary method of feminine body therapy. This unique holistic approach offers profound inner transformation for women, serving as a practical tool for physical and emotional liberation while unlocking powerful personal qualities. Core Philosophy: \"The body and mind are indivisible!\" During a single Monsalada session, layers of traumatic psycho-emotional experiences are addressed, chronic tension and spasms in the fascia, muscles, and internal organs are relaxed, and outdated beliefs, patterns, and behaviours are recognized. By letting go of these, women gain insights and a significant resource of vibrant, sexual, and creative energy for new achievements! A Monsalada session includes: - Foot cleansing ritual - Guided meditation - Craniosacral therapy - Ayurvedic hot oil massage - Coaching conversation For effective results for the Monsalada therapy, at least three sessions are advised, with three weeks in between. Unlock your true potential with Monsalada!"
+    },
+    {
+      "group": "Additional services",
+      "name": "Shirodhara session",
+      "options": [["75 min", 180]],
+      "description": "Experience the ancient Ayurvedic therapy of Shirodhara, a deeply relaxing and rejuvenating treatment that promotes mental clarity and emotional balance. The word \"Shirodhara\" comes from the Sanskrit words \"Shiro\" (head) and \"Dhara\" (flow), reflecting the continuous stream of warm herbal oil gently poured over the forehead. Benefits: Stress Relief: Shirodhara induces a state of deep relaxation, reducing stress and anxiety levels. Improved Sleep: This therapy is known to enhance the quality of sleep by calming the nervous system. Mental Clarity: Regular sessions help improve focus and mental clarity, supporting overall cognitive function. Emotional Balance: Shirodhara helps to balance emotions and promote a sense of peace and well-being. Hair and Scalp Health: The herbal oils nourish the scalp and strengthen hair roots. What to Expect: During a Shirodhara session, you will lie comfortably on a massage table. Warm, herbal oil will be gently poured in a continuous stream over your forehead, particularly the \"third eye\" area. This process lasts for about 30 to 45 minutes, during which you may experience a deep meditative state. Holistic Approach: Shirodhara is part of a holistic Ayurvedic treatment plan aimed at balancing the body's energy (doshas). It is particularly effective in addressing Vata and Pitta imbalances, which are associated with stress, anxiety, and mental agitation. Why Choose Shirodhara: Traditional Wisdom: Rooted in ancient Ayurvedic traditions, Shirodhara offers time-tested benefits for mental and emotional health. Comprehensive Healing: Combines physical relaxation with emotional and mental rejuvenation. Personalized Treatment: Our therapists customize the herbal oil blend based on your unique constitution and needs."
+    }
+  ]
+}
